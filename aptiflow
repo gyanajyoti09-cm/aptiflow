@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aptiflow.com | Smart Study</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f8fc;
+    color:#172033;
+}
+
+/* NAVBAR */
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 7%;
+    background:white;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.logo{
+    font-size:25px;
+    font-weight:bold;
+    color:#4263eb;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#172033;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#4263eb;
+}
+
+/* HERO */
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:50px 20px;
+    background:linear-gradient(135deg,#eef3ff,#ffffff);
+}
+
+.hero h1{
+    font-size:clamp(45px,9vw,85px);
+    color:#4263eb;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    font-size:clamp(22px,4vw,35px);
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#657085;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.button{
+    display:inline-block;
+    padding:14px 28px;
+    border-radius:30px;
+    background:#4263eb;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.button:hover{
+    transform:scale(1.07);
+    box-shadow:0 8px 25px rgba(66,99,235,.3);
+}
+
+/* SECTIONS */
+
+section{
+    padding:70px 7%;
+}
+
+.title{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+    color:#25345d;
+}
+
+/* SUBJECT CARDS */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.07);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+}
+
+.icon{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#68758a;
+    line-height:1.6;
+}
+
+.card button{
+    margin-top:18px;
+    padding:10px 18px;
+    border:none;
+    border-radius:20px;
+    background:#4263eb;
+    color:white;
+    cursor:pointer;
+}
+
+/* FEATURES */
+
+.features{
+    background:#ffffff;
+}
+
+.feature-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.feature{
+    padding:25px;
+    border-radius:15px;
+    background:#f5f7ff;
+}
+
+.feature h3{
+    margin-bottom:10px;
+    color:#4263eb;
+}
+
+.feature p{
+    color:#68758a;
+    line-height:1.6;
+}
+
+/* SEARCH */
+
+.search-area{
+    text-align:center;
+}
+
+.search-box{
+    width:90%;
+    max-width:600px;
+    padding:15px 20px;
+    border:1px solid #ccd3df;
+    border-radius:30px;
+    font-size:16px;
+    outline:none;
+}
+
+.search-box:focus{
+    border-color:#4263eb;
+}
+
+/* TIMER */
+
+.timer{
+    text-align:center;
+    background:#eef3ff;
+}
+
+#time{
+    font-size:60px;
+    font-weight:bold;
+    margin:20px;
+    color:#4263eb;
+}
+
+.timer button{
+    padding:12px 20px;
+    margin:5px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    background:#4263eb;
+    color:white;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#172033;
+    color:white;
+}
+
+footer span{
+    color:#7f9cff;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    nav{
+        padding:15px 5%;
+    }
+
+    nav ul{
+        gap:12px;
+    }
+
+    nav ul li a{
+        font-size:13px;
+    }
+
+    section{
+        padding:55px 5%;
+    }
+
+    .title{
+        font-size:30px;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+
+<div class="logo">
+Aptiflow.com
+</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#subjects">Subjects</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#timer">Timer</a></li>
+</ul>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div>
+
+<h1>Aptiflow</h1>
+
+<h2>Study Smarter. Learn Better.</h2>
+
+<p>
+Your simple online study space for notes,
+questions, formulas and focused learning.
+</p>
+
+<a href="#subjects" class="button">
+Start Studying
+</a>
+
+</div>
+
+</section>
+
+
+<!-- SUBJECTS -->
+
+<section id="subjects">
+
+<h2 class="title">
+Study Subjects
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="icon">🧮</div>
+
+<h3>Mathematics</h3>
+
+<p>
+Formulas, concepts, examples and important questions.
+</p>
+
+<button onclick="openSubject('Mathematics')">
+Open
+</button>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🔬</div>
+
+<h3>Science</h3>
+
+<p>
+Physics, Chemistry and Biology study materials.
+</p>
+
+<button onclick="openSubject('Science')">
+Open
+</button>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🌍</div>
+
+<h3>Social Science</h3>
+
+<p>
+History, Geography, Civics and Economics.
+</p>
+
+<button onclick="openSubject('Social Science')">
+Open
+</button>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">💻</div>
+
+<h3>Computer</h3>
+
+<p>
+Computer concepts, coding and information technology.
+</p>
+
+<button onclick="openSubject('Computer')">
+Open
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FEATURES -->
+
+<section class="features" id="features">
+
+<h2 class="title">
+Aptiflow Features
+</h2>
+
+<div class="feature-box">
+
+<div class="feature">
+
+<h3>📚 Study Notes</h3>
+
+<p>
+Keep important study notes organized in one place.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>❓ Important Questions</h3>
+
+<p>
+Practice important questions and improve your preparation.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>🧮 Formula Hub</h3>
+
+<p>
+Quickly revise important mathematical and scientific formulas.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<h3>📅 Study Planner</h3>
+
+<p>
+Plan your study sessions and stay consistent.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SEARCH -->
+
+<section class="search-area">
+
+<h2 class="title">
+Search Aptiflow
+</h2>
+
+<input
+type="text"
+class="search-box"
+id="search"
+placeholder="Search notes, formulas, subjects..."
+onkeyup="searchSite()"
+>
+
+<p id="searchResult" style="margin-top:20px;color:#68758a;"></p>
+
+</section>
+
+
+<!-- TIMER -->
+
+<section class="timer" id="timer">
+
+<h2 class="title">
+Study Timer
+</h2>
+
+<div id="time">
+25:00
+</div>
+
+<button onclick="startTimer()">
+Start
+</button>
+
+<button onclick="pauseTimer()">
+Pause
+</button>
+
+<button onclick="resetTimer()">
+Reset
+</button>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+© 2026 <span>Aptiflow.com</span>
+</p>
+
+<p style="margin-top:8px;">
+Study smarter. Learn better.
+</p>
+
+</footer>
+
+
+<script>
+
+/* SUBJECT BUTTON */
+
+function openSubject(subject){
+
+alert(
+subject +
+" section will be available here. You can add your notes, videos, PDFs and questions."
+);
+
+}
+
+
+/* SEARCH */
+
+function searchSite(){
+
+let text =
+document.getElementById("search").value.toLowerCase();
+
+let result =
+document.getElementById("searchResult");
+
+if(text === ""){
+
+result.innerHTML = "";
+
+return;
+
+}
+
+if(
+text.includes("math") ||
+text.includes("formula")
+){
+
+result.innerHTML =
+"📐 Mathematics and formula materials are available.";
+
+}
+
+else if(text.includes("science")){
+
+result.innerHTML =
+"🔬 Science materials are available.";
+
+}
+
+else if(
+text.includes("social") ||
+text.includes("history") ||
+text.includes("geography")
+){
+
+result.innerHTML =
+"🌍 Social Science materials are available.";
+
+}
+
+else{
+
+result.innerHTML =
+"🔎 Search results will appear when you add your study materials.";
+
+}
+
+}
+
+
+/* STUDY TIMER */
+
+let seconds = 25 * 60;
+
+let timer = null;
+
+
+function updateTimer(){
+
+let minutes =
+Math.floor(seconds / 60);
+
+let remainingSeconds =
+seconds % 60;
+
+document.getElementById("time").innerText =
+String(minutes).padStart(2,"0")
++ ":" +
+String(remainingSeconds).padStart(2,"0");
+
+}
+
+
+function startTimer(){
+
+if(timer !== null)
+return;
+
+timer = setInterval(function(){
+
+if(seconds > 0){
+
+seconds--;
+
+updateTimer();
+
+}
+else{
+
+clearInterval(timer);
+
+timer = null;
+
+alert("🎉 Study session completed!");
+
+}
+
+},1000);
+
+}
+
+
+function pauseTimer(){
+
+clearInterval(timer);
+
+timer = null;
+
+}
+
+
+function resetTimer(){
+
+clearInterval(timer);
+
+timer = null;
+
+seconds = 25 * 60;
+
+updateTimer();
+
+}
+
+
+updateTimer();
+
+</script>
+
+</body>
+</html>
