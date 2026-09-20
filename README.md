@@ -1,4 +1,4 @@
-11. 🌱 The Little Seed
+1. 🌱 The Little Seed
 A boy found a tiny seed and planted it near his house. Every day, he watered it, even though nothing appeared for many weeks. His friends laughed at him and told him to give up.
 One morning, he saw a small green shoot. He continued caring for it, and months later it became a beautiful tree.
 Moral: Patience and consistent effort bring results.
