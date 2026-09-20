@@ -1,4 +1,4 @@
-       Moral stories
+        Moral stories
 
        
      1. 🌱 The Little Seed
@@ -64,14 +64,14 @@ Moral: Steady progress is better than giving up.
 
 
 
-10.   📚 The Empty Notebook
+10.      📚 The Empty Notebook
 A student complained that his notebook was empty because he had nothing interesting to write. His teacher told him, “Then fill it with what you learn today.”
 He began writing one new thing every day. By the end of the year, the notebook was full of knowledge.
 Moral: Learning grows through small daily efforts.
 
 
 
-11.   🌧️ The Broken Umbrella
+11.     🌧️ The Broken Umbrella
 A boy had an old umbrella with a small tear. Instead of throwing it away, he repaired it. During a heavy rain, he shared it with a friend who had none.
 The two reached home safely together.
 Moral: Something imperfect can still be useful and valuable.
