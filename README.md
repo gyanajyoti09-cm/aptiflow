@@ -5,7 +5,8 @@
 A boy found a tiny seed and planted it near his house. Every day, he watered it, even though nothing appeared for many weeks. His friends laughed at him and told him to give up.
 One morning, he saw a small green shoot. He continued caring for it, and months later it became a beautiful tree.
 Moral: Patience and consistent effort bring results.
-![The Underground Layer (The Beginning)The Protagonist: Deep inside the rich, textured dark soil sits the brave little seed. It has been given a cute, happy face to show it has overcome its fear.First Growth: A bright green sprout is breaking through the top of the seed coat, and strong white taproots are anchoring it deep down into the earth.Soil Neighbors: The ground is full of life, featuring organic details like rocks, plant roots, and wiggly earthworms moving through the dirt layers to keep the soil healthy.☀️ The Above-Ground Layer (The Happy Ending)The Transformation: Right above the seed, its efforts have turned into a tall, proud flower with a smiling face, vibrant golden petals, and healthy green leaves soaking up the sun.The Atmosphere: The sky is a bright, clear blue filled with fluffy white clouds. A warm, smiling sun shines down, celebrating the little seed's success.The Ecosystem: The surface is alive with a lush garden landscape filled with colorful wild flowers, a flying butterfly, a busy bumblebee, and little ladybugs.]
+(https://cdn.phototourl.com/free/2026-09-20-e522267e-1921-4d08-b016-3747c0c07f32.jpg)
+
 
 
 
